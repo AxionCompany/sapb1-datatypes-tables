@@ -13,5 +13,6 @@ Collaboration is the key to enhancing this resource. We welcome contributions fr
 In addition to using the data provided in this project, software applications and services can consume this information dynamically straight from GitHub, making this a highly flexible resource for projects that interact with SAP Business One.
 
 Credits to DIEGO LOTHER for compiling this list.
+
 https://blogs.sap.com/2017/04/27/list-of-object-types/comment-page-1/#comment-691824
 
