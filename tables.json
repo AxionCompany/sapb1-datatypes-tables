@@ -1,0 +1,1953 @@
+[
+  {
+    "Table": "OACT",
+    "Table description": "G/L Accounts",
+    "Primary Key": "AcctCode",
+    "Object Type": "1"
+  },
+  {
+    "Table": "OCRD",
+    "Table description": "Business Partner",
+    "Primary Key": "CardCode",
+    "Object Type": "2"
+  },
+  {
+    "Table": "ODSC",
+    "Table description": "Bank Codes",
+    "Primary Key": "AbsEntry",
+    "Object Type": "3"
+  },
+  {
+    "Table": "OITM",
+    "Table description": "Items",
+    "Primary Key": "ItemCode",
+    "Object Type": "4"
+  },
+  {
+    "Table": "OVTG",
+    "Table description": "Tax Definition",
+    "Primary Key": "Code",
+    "Object Type": "5"
+  },
+  {
+    "Table": "OPLN",
+    "Table description": "Price Lists",
+    "Primary Key": "ListNum",
+    "Object Type": "6"
+  },
+  {
+    "Table": "OSPP",
+    "Table description": "Special Prices",
+    "Primary Key": "CardCode, ItemCode",
+    "Object Type": "7"
+  },
+  {
+    "Table": "OITG",
+    "Table description": "Item Properties",
+    "Primary Key": "ItmsTypCod",
+    "Object Type": "8"
+  },
+  {
+    "Table": "ORTM",
+    "Table description": "Rate Differences",
+    "Primary Key": "LineNum, IsSysCurr",
+    "Object Type": "9"
+  },
+  {
+    "Table": "OCRG",
+    "Table description": "Card Groups",
+    "Primary Key": "GroupCode",
+    "Object Type": "10"
+  },
+  {
+    "Table": "OCPR",
+    "Table description": "Contact Persons",
+    "Primary Key": "CntctCode",
+    "Object Type": "11"
+  },
+  {
+    "Table": "OUSR",
+    "Table description": "Users",
+    "Primary Key": "USERID",
+    "Object Type": "12"
+  },
+  {
+    "Table": "OINV",
+    "Table description": "A/R Invoice",
+    "Primary Key": "DocEntry",
+    "Object Type": "13"
+  },
+  {
+    "Table": "ORIN",
+    "Table description": "A/R Credit Memo",
+    "Primary Key": "DocEntry",
+    "Object Type": "14"
+  },
+  {
+    "Table": "ODLN",
+    "Table description": "Delivery",
+    "Primary Key": "DocEntry",
+    "Object Type": "15"
+  },
+  {
+    "Table": "ORDN",
+    "Table description": "Returns",
+    "Primary Key": "DocEntry",
+    "Object Type": "16"
+  },
+  {
+    "Table": "ORDR",
+    "Table description": "Sales Order",
+    "Primary Key": "DocEntry",
+    "Object Type": "17"
+  },
+  {
+    "Table": "OPCH",
+    "Table description": "A/P Invoice",
+    "Primary Key": "DocEntry",
+    "Object Type": "18"
+  },
+  {
+    "Table": "ORPC",
+    "Table description": "A/P Credit Memo",
+    "Primary Key": "DocEntry",
+    "Object Type": "19"
+  },
+  {
+    "Table": "OPDN",
+    "Table description": "Goods Receipt PO",
+    "Primary Key": "DocEntry",
+    "Object Type": "20"
+  },
+  {
+    "Table": "ORPD",
+    "Table description": "Goods Return",
+    "Primary Key": "DocEntry",
+    "Object Type": "21"
+  },
+  {
+    "Table": "OPOR",
+    "Table description": "Purchase Order",
+    "Primary Key": "DocEntry",
+    "Object Type": "22"
+  },
+  {
+    "Table": "OQUT",
+    "Table description": "Sales Quotation",
+    "Primary Key": "DocEntry",
+    "Object Type": "23"
+  },
+  {
+    "Table": "ORCT",
+    "Table description": "Incoming Payment",
+    "Primary Key": "DocEntry",
+    "Object Type": "24"
+  },
+  {
+    "Table": "ODPS",
+    "Table description": "Deposit",
+    "Primary Key": "DeposId",
+    "Object Type": "25"
+  },
+  {
+    "Table": "OMTH",
+    "Table description": "Reconciliation History",
+    "Primary Key": "MthAcctCod, IsInternal, MatchNum",
+    "Object Type": "26"
+  },
+  {
+    "Table": "OCHH",
+    "Table description": "Check Register",
+    "Primary Key": "CheckKey",
+    "Object Type": "27"
+  },
+  {
+    "Table": "OBTF",
+    "Table description": "Journal Voucher Entry",
+    "Primary Key": "BatchNum, TransId",
+    "Object Type": "28"
+  },
+  {
+    "Table": "OBTD",
+    "Table description": "Journal Vouchers List",
+    "Primary Key": "BatchNum",
+    "Object Type": "29"
+  },
+  {
+    "Table": "OJDT",
+    "Table description": "Journal Entry",
+    "Primary Key": "TransId",
+    "Object Type": "30"
+  },
+  {
+    "Table": "OITW",
+    "Table description": "Items – Warehouse",
+    "Primary Key": "ItemCode, WhsCode",
+    "Object Type": "31"
+  },
+  {
+    "Table": "OADP",
+    "Table description": "Print Preferences",
+    "Primary Key": "PrintId",
+    "Object Type": "32"
+  },
+  {
+    "Table": "OCLG",
+    "Table description": "Activities",
+    "Primary Key": "ClgCode",
+    "Object Type": "33"
+  },
+  {
+    "Table": "ORCR",
+    "Table description": "Recurring Postings",
+    "Primary Key": "RcurCode, Instance",
+    "Object Type": "34"
+  },
+  {
+    "Table": "ONNM",
+    "Table description": "Document Numbering",
+    "Primary Key": "ObjectCode, DocSubType",
+    "Object Type": "35"
+  },
+  {
+    "Table": "OCRC",
+    "Table description": "Credit Cards",
+    "Primary Key": "CreditCard",
+    "Object Type": "36"
+  },
+  {
+    "Table": "OCRN",
+    "Table description": "Currency Codes",
+    "Primary Key": "CurrCode",
+    "Object Type": "37"
+  },
+  {
+    "Table": "OIDX",
+    "Table description": "CPI Codes",
+    "Primary Key": "IdexCode",
+    "Object Type": "38"
+  },
+  {
+    "Table": "OADM",
+    "Table description": "Administration",
+    "Primary Key": "Code",
+    "Object Type": "39"
+  },
+  {
+    "Table": "OCTG",
+    "Table description": "Payment Terms",
+    "Primary Key": "GroupNum",
+    "Object Type": "40"
+  },
+  {
+    "Table": "OPRF",
+    "Table description": "Preferences",
+    "Primary Key": "FormNumber, UserSign",
+    "Object Type": "41"
+  },
+  {
+    "Table": "OBNK",
+    "Table description": "External Bank Statement Received",
+    "Primary Key": "AcctCode, Sequence",
+    "Object Type": "42"
+  },
+  {
+    "Table": "OMRC",
+    "Table description": "Manufacturers",
+    "Primary Key": "FirmCode",
+    "Object Type": "43"
+  },
+  {
+    "Table": "OCQG",
+    "Table description": "Card Properties",
+    "Primary Key": "GroupCode",
+    "Object Type": "44"
+  },
+  {
+    "Table": "OTRC",
+    "Table description": "Journal Entry Codes",
+    "Primary Key": "TrnsCode",
+    "Object Type": "45"
+  },
+  {
+    "Table": "OVPM",
+    "Table description": "Outgoing Payments",
+    "Primary Key": "DocEntry",
+    "Object Type": "46"
+  },
+  {
+    "Table": "OSRL",
+    "Table description": "Serial Numbers",
+    "Primary Key": "ItemCode, SerialNum",
+    "Object Type": "47"
+  },
+  {
+    "Table": "OALC",
+    "Table description": "Loading Expenses",
+    "Primary Key": "AlcCode",
+    "Object Type": "48"
+  },
+  {
+    "Table": "OSHP",
+    "Table description": "Delivery Types",
+    "Primary Key": "TrnspCode",
+    "Object Type": "49"
+  },
+  {
+    "Table": "OLGT",
+    "Table description": "Length Units",
+    "Primary Key": "UnitCode",
+    "Object Type": "50"
+  },
+  {
+    "Table": "OWGT",
+    "Table description": "Weight Units",
+    "Primary Key": "UnitCode",
+    "Object Type": "51"
+  },
+  {
+    "Table": "OITB",
+    "Table description": "Item Groups",
+    "Primary Key": "ItmsGrpCod",
+    "Object Type": "52"
+  },
+  {
+    "Table": "OSLP",
+    "Table description": "Sales Employee",
+    "Primary Key": "SlpCode",
+    "Object Type": "53"
+  },
+  {
+    "Table": "OFLT",
+    "Table description": "Report – Selection Criteria",
+    "Primary Key": "FormNum, UserSign, FilterName",
+    "Object Type": "54"
+  },
+  {
+    "Table": "OTRT",
+    "Table description": "Posting Templates",
+    "Primary Key": "TrtCode",
+    "Object Type": "55"
+  },
+  {
+    "Table": "OARG",
+    "Table description": "Customs Groups",
+    "Primary Key": "CstGrpCode",
+    "Object Type": "56"
+  },
+  {
+    "Table": "OCHO",
+    "Table description": "Checks for Payment",
+    "Primary Key": "CheckKey",
+    "Object Type": "57"
+  },
+  {
+    "Table": "OINM",
+    "Table description": "Whse Journal",
+    "Primary Key": "TransNum, Instance",
+    "Object Type": "58"
+  },
+  {
+    "Table": "OIGN",
+    "Table description": "Goods Receipt",
+    "Primary Key": "DocEntry",
+    "Object Type": "59"
+  },
+  {
+    "Table": "OIGE",
+    "Table description": "Goods Issue",
+    "Primary Key": "DocEntry",
+    "Object Type": "60"
+  },
+  {
+    "Table": "OPRC",
+    "Table description": "Cost Center",
+    "Primary Key": "PrcCode",
+    "Object Type": "61"
+  },
+  {
+    "Table": "OOCR",
+    "Table description": "Cost Rate",
+    "Primary Key": "OcrCode",
+    "Object Type": "62"
+  },
+  {
+    "Table": "OPRJ",
+    "Table description": "Project Codes",
+    "Primary Key": "PrjCode",
+    "Object Type": "63"
+  },
+  {
+    "Table": "OWHS",
+    "Table description": "Warehouses",
+    "Primary Key": "WhsCode",
+    "Object Type": "64"
+  },
+  {
+    "Table": "OCOG",
+    "Table description": "Commission Groups",
+    "Primary Key": "GroupCode",
+    "Object Type": "65"
+  },
+  {
+    "Table": "OITT",
+    "Table description": "Product Tree",
+    "Primary Key": "Code",
+    "Object Type": "66"
+  },
+  {
+    "Table": "OWTR",
+    "Table description": "Inventory Transfer",
+    "Primary Key": "DocEntry",
+    "Object Type": "67"
+  },
+  {
+    "Table": "OWKO",
+    "Table description": "Production Instructions",
+    "Primary Key": "OrderNum",
+    "Object Type": "68"
+  },
+  {
+    "Table": "OIPF",
+    "Table description": "Landed Costs",
+    "Primary Key": "DocEntry",
+    "Object Type": "69"
+  },
+  {
+    "Table": "OCRP",
+    "Table description": "Payment Methods",
+    "Primary Key": "CrTypeCode",
+    "Object Type": "70"
+  },
+  {
+    "Table": "OCDT",
+    "Table description": "Credit Card Payment",
+    "Primary Key": "Code",
+    "Object Type": "71"
+  },
+  {
+    "Table": "OCRH",
+    "Table description": "Credit Card Management",
+    "Primary Key": "AbsId, Instance",
+    "Object Type": "72"
+  },
+  {
+    "Table": "OSCN",
+    "Table description": "Customer/Vendor Cat. No.",
+    "Primary Key": "ItemCode, CardCode, Substitute",
+    "Object Type": "73"
+  },
+  {
+    "Table": "OCRV",
+    "Table description": "Credit Payments",
+    "Primary Key": "AbsId, PayId, Instance",
+    "Object Type": "74"
+  },
+  {
+    "Table": "ORTT",
+    "Table description": "CPI and FC Rates",
+    "Primary Key": "RateDate, Currency",
+    "Object Type": "75"
+  },
+  {
+    "Table": "ODPT",
+    "Table description": "Postdated Deposit",
+    "Primary Key": "DeposId",
+    "Object Type": "76"
+  },
+  {
+    "Table": "OBGT",
+    "Table description": "Budget",
+    "Primary Key": "AbsId",
+    "Object Type": "77"
+  },
+  {
+    "Table": "OBGD",
+    "Table description": "Budget Cost Assess. Mthd",
+    "Primary Key": "BgdCode",
+    "Object Type": "78"
+  },
+  {
+    "Table": "ORCN",
+    "Table description": "Retail Chains",
+    "Primary Key": "ChainCode",
+    "Object Type": "79"
+  },
+  {
+    "Table": "OALT",
+    "Table description": "Alerts Template",
+    "Primary Key": "Code",
+    "Object Type": "80"
+  },
+  {
+    "Table": "OALR",
+    "Table description": "Alerts",
+    "Primary Key": "Code",
+    "Object Type": "81"
+  },
+  {
+    "Table": "OAIB",
+    "Table description": "Received Alerts",
+    "Primary Key": "AlertCode, UserSign",
+    "Object Type": "82"
+  },
+  {
+    "Table": "OAOB",
+    "Table description": "Message Sent",
+    "Primary Key": "AlertCode, UserSign",
+    "Object Type": "83"
+  },
+  {
+    "Table": "OCLS",
+    "Table description": "Activity Subjects",
+    "Primary Key": "Code",
+    "Object Type": "84"
+  },
+  {
+    "Table": "OSPG",
+    "Table description": "Special Prices for Groups",
+    "Primary Key": "CardCode, ObjType, ObjKey",
+    "Object Type": "85"
+  },
+  {
+    "Table": "SPRG",
+    "Table description": "Application Start",
+    "Primary Key": "LineNum, UserCode",
+    "Object Type": "86"
+  },
+  {
+    "Table": "OMLS",
+    "Table description": "Distribution List",
+    "Primary Key": "Code",
+    "Object Type": "87"
+  },
+  {
+    "Table": "OENT",
+    "Table description": "Shipping Types",
+    "Primary Key": "DocEntry",
+    "Object Type": "88"
+  },
+  {
+    "Table": "OSAL",
+    "Table description": "Outgoing",
+    "Primary Key": "DocEntry",
+    "Object Type": "89"
+  },
+  {
+    "Table": "OTRA",
+    "Table description": "Transition",
+    "Primary Key": "DocEntry",
+    "Object Type": "90"
+  },
+  {
+    "Table": "OBGS",
+    "Table description": "Budget Scenario",
+    "Primary Key": "AbsId",
+    "Object Type": "91"
+  },
+  {
+    "Table": "OIRT",
+    "Table description": "Interest Prices",
+    "Primary Key": "Numerator",
+    "Object Type": "92"
+  },
+  {
+    "Table": "OUDG",
+    "Table description": "User Defaults",
+    "Primary Key": "Code",
+    "Object Type": "93"
+  },
+  {
+    "Table": "OSRI",
+    "Table description": "Serial Numbers for Items",
+    "Primary Key": "ItemCode, SysSerial",
+    "Object Type": "94"
+  },
+  {
+    "Table": "OFRT",
+    "Table description": "Financial Report Templates",
+    "Primary Key": "AbsId",
+    "Object Type": "95"
+  },
+  {
+    "Table": "OFRC",
+    "Table description": "Financial Report Categories",
+    "Primary Key": "TemplateId, CatId",
+    "Object Type": "96"
+  },
+  {
+    "Table": "OOPR",
+    "Table description": "Opportunity",
+    "Primary Key": "OpprId",
+    "Object Type": "97"
+  },
+  {
+    "Table": "OOIN",
+    "Table description": "Interest",
+    "Primary Key": "Num",
+    "Object Type": "98"
+  },
+  {
+    "Table": "OOIR",
+    "Table description": "Interest Level",
+    "Primary Key": "Num",
+    "Object Type": "99"
+  },
+  {
+    "Table": "OOSR",
+    "Table description": "Information Source",
+    "Primary Key": "Num",
+    "Object Type": "100"
+  },
+  {
+    "Table": "OOST",
+    "Table description": "Opportunity Stage",
+    "Primary Key": "Num",
+    "Object Type": "101"
+  },
+  {
+    "Table": "OOFR",
+    "Table description": "Defect Cause",
+    "Primary Key": "Num",
+    "Object Type": "102"
+  },
+  {
+    "Table": "OCLT",
+    "Table description": "Activity Types",
+    "Primary Key": "Code",
+    "Object Type": "103"
+  },
+  {
+    "Table": "OCLO",
+    "Table description": "Meetings Location",
+    "Primary Key": "Code",
+    "Object Type": "104"
+  },
+  {
+    "Table": "OISR",
+    "Table description": "Service Calls",
+    "Primary Key": "RequestNum",
+    "Object Type": "105"
+  },
+  {
+    "Table": "OIBT",
+    "Table description": "Batch No. for Item",
+    "Primary Key": "ItemCode, BatchNum, WhsCode",
+    "Object Type": "106"
+  },
+  {
+    "Table": "OALI",
+    "Table description": "Alternative Items 2",
+    "Primary Key": "OrigItem, AltItem",
+    "Object Type": "107"
+  },
+  {
+    "Table": "OPRT",
+    "Table description": "Partners",
+    "Primary Key": "PrtId",
+    "Object Type": "108"
+  },
+  {
+    "Table": "OCMT",
+    "Table description": "Competitors",
+    "Primary Key": "CompetId",
+    "Object Type": "109"
+  },
+  {
+    "Table": "OUVV",
+    "Table description": "User Validations",
+    "Primary Key": "IndexID, LineNum",
+    "Object Type": "110"
+  },
+  {
+    "Table": "OFPR",
+    "Table description": "Posting Period",
+    "Primary Key": "AbsEntry",
+    "Object Type": "111"
+  },
+  {
+    "Table": "ODRF",
+    "Table description": "Drafts",
+    "Primary Key": "DocEntry",
+    "Object Type": "112"
+  },
+  {
+    "Table": "OSRD",
+    "Table description": "Batches and Serial Numbers",
+    "Primary Key": "ItemCode, DocType, DocEntry, DocLineNum",
+    "Object Type": "113"
+  },
+  {
+    "Table": "OUDC",
+    "Table description": "User Display Cat.",
+    "Primary Key": "CodeID",
+    "Object Type": "114"
+  },
+  {
+    "Table": "OPVL",
+    "Table description": "Lender – Pelecard",
+    "Primary Key": "Code",
+    "Object Type": "115"
+  },
+  {
+    "Table": "ODDT",
+    "Table description": "Withholding Tax Deduction Hierarchy",
+    "Primary Key": "Numerator",
+    "Object Type": "116"
+  },
+  {
+    "Table": "ODDG",
+    "Table description": "Withholding Tax Deduction Groups",
+    "Primary Key": "Numerator",
+    "Object Type": "117"
+  },
+  {
+    "Table": "OUBR",
+    "Table description": "Branches",
+    "Primary Key": "Code",
+    "Object Type": "118"
+  },
+  {
+    "Table": "OUDP",
+    "Table description": "Departments",
+    "Primary Key": "Code",
+    "Object Type": "119"
+  },
+  {
+    "Table": "OWST",
+    "Table description": "Confirmation Level",
+    "Primary Key": "WstCode",
+    "Object Type": "120"
+  },
+  {
+    "Table": "OWTM",
+    "Table description": "Approval Templates",
+    "Primary Key": "WtmCode",
+    "Object Type": "121"
+  },
+  {
+    "Table": "OWDD",
+    "Table description": "Docs. for Confirmation",
+    "Primary Key": "WddCode",
+    "Object Type": "122"
+  },
+  {
+    "Table": "OCHD",
+    "Table description": "Checks for Payment Drafts",
+    "Primary Key": "CheckKey",
+    "Object Type": "123"
+  },
+  {
+    "Table": "CINF",
+    "Table description": "Company Info",
+    "Primary Key": "Version",
+    "Object Type": "124"
+  },
+  {
+    "Table": "OEXD",
+    "Table description": "Freight Setup",
+    "Primary Key": "ExpnsCode",
+    "Object Type": "125"
+  },
+  {
+    "Table": "OSTA",
+    "Table description": "Sales Tax Authorities",
+    "Primary Key": "Code, Type",
+    "Object Type": "126"
+  },
+  {
+    "Table": "OSTT",
+    "Table description": "Sales Tax Authorities Type",
+    "Primary Key": "AbsId",
+    "Object Type": "127"
+  },
+  {
+    "Table": "OSTC",
+    "Table description": "Sales Tax Codes",
+    "Primary Key": "Code",
+    "Object Type": "128"
+  },
+  {
+    "Table": "OCRY",
+    "Table description": "Countries",
+    "Primary Key": "Code",
+    "Object Type": "129"
+  },
+  {
+    "Table": "OCST",
+    "Table description": "States",
+    "Primary Key": "Country, Code",
+    "Object Type": "130"
+  },
+  {
+    "Table": "OADF",
+    "Table description": "Address Formats",
+    "Primary Key": "Code",
+    "Object Type": "131"
+  },
+  {
+    "Table": "OCIN",
+    "Table description": "A/R Correction Invoice",
+    "Primary Key": "DocEntry",
+    "Object Type": "132"
+  },
+  {
+    "Table": "OCDC",
+    "Table description": "Cash Discount",
+    "Primary Key": "Code",
+    "Object Type": "133"
+  },
+  {
+    "Table": "OQCN",
+    "Table description": "Query Catagories",
+    "Primary Key": "CategoryId",
+    "Object Type": "134"
+  },
+  {
+    "Table": "OIND",
+    "Table description": "Triangular Deal",
+    "Primary Key": "Code",
+    "Object Type": "135"
+  },
+  {
+    "Table": "ODMW",
+    "Table description": "Data Migration",
+    "Primary Key": "Code",
+    "Object Type": "136"
+  },
+  {
+    "Table": "OCSTN",
+    "Table description": "Workstation ID",
+    "Primary Key": "Code",
+    "Object Type": "137"
+  },
+  {
+    "Table": "OIDC",
+    "Table description": "Indicator",
+    "Primary Key": "Code",
+    "Object Type": "138"
+  },
+  {
+    "Table": "OGSP",
+    "Table description": "Goods Shipment",
+    "Primary Key": "Code",
+    "Object Type": "139"
+  },
+  {
+    "Table": "OPDF",
+    "Table description": "Payment Draft",
+    "Primary Key": "DocEntry",
+    "Object Type": "140"
+  },
+  {
+    "Table": "OQWZ",
+    "Table description": "Query Wizard",
+    "Primary Key": "Code",
+    "Object Type": "141"
+  },
+  {
+    "Table": "OASG",
+    "Table description": "Account Segmentation",
+    "Primary Key": "AbsId",
+    "Object Type": "142"
+  },
+  {
+    "Table": "OASC",
+    "Table description": "Account Segmentation Categories",
+    "Primary Key": "SegmentId, Code",
+    "Object Type": "143"
+  },
+  {
+    "Table": "OLCT",
+    "Table description": "Location",
+    "Primary Key": "Code",
+    "Object Type": "144"
+  },
+  {
+    "Table": "OTNN",
+    "Table description": "1099 Forms",
+    "Primary Key": "FormCode",
+    "Object Type": "145"
+  },
+  {
+    "Table": "OCYC",
+    "Table description": "Cycle",
+    "Primary Key": "Code",
+    "Object Type": "146"
+  },
+  {
+    "Table": "OPYM",
+    "Table description": "Payment Methods for Payment Wizard",
+    "Primary Key": "PayMethCod",
+    "Object Type": "147"
+  },
+  {
+    "Table": "OTOB",
+    "Table description": "1099 Opening Balance",
+    "Primary Key": "VendCode, Form1099, Box1099",
+    "Object Type": "148"
+  },
+  {
+    "Table": "ORIT",
+    "Table description": "Dunning Interest Rate",
+    "Primary Key": "Code",
+    "Object Type": "149"
+  },
+  {
+    "Table": "OBPP",
+    "Table description": "BP Priorities",
+    "Primary Key": "PrioCode",
+    "Object Type": "150"
+  },
+  {
+    "Table": "ODUN",
+    "Table description": "Dunning Letters",
+    "Primary Key": "LineNum",
+    "Object Type": "151"
+  },
+  {
+    "Table": "CUFD",
+    "Table description": "User Fields – Description",
+    "Primary Key": "TableID, FieldID",
+    "Object Type": "152"
+  },
+  {
+    "Table": "OUTB",
+    "Table description": "User Tables",
+    "Primary Key": "TableName",
+    "Object Type": "153"
+  },
+  {
+    "Table": "OCUMI",
+    "Table description": "My Menu Items",
+    "Primary Key": "UserSign , Id_",
+    "Object Type": "154"
+  },
+  {
+    "Table": "OPYD",
+    "Table description": "Payment Run",
+    "Primary Key": "Code",
+    "Object Type": "155"
+  },
+  {
+    "Table": "OPKL",
+    "Table description": "Pick List",
+    "Primary Key": "AbsEntry",
+    "Object Type": "156"
+  },
+  {
+    "Table": "OPWZ",
+    "Table description": "Payment Wizard",
+    "Primary Key": "IdNumber",
+    "Object Type": "157"
+  },
+  {
+    "Table": "OPEX",
+    "Table description": "Payment Results Table",
+    "Primary Key": "AbsEntry",
+    "Object Type": "158"
+  },
+  {
+    "Table": "OPYB",
+    "Table description": "Payment Block",
+    "Primary Key": "AbsEntry",
+    "Object Type": "159"
+  },
+  {
+    "Table": "OUQR",
+    "Table description": "Queries",
+    "Primary Key": "IntrnalKey, Qcategory",
+    "Object Type": "160"
+  },
+  {
+    "Table": "OCBI",
+    "Table description": "Central Bank Ind.",
+    "Primary Key": "Indicator",
+    "Object Type": "161"
+  },
+  {
+    "Table": "OMRV",
+    "Table description": "Inventory Revaluation",
+    "Primary Key": "DocEntry",
+    "Object Type": "162"
+  },
+  {
+    "Table": "OCPI",
+    "Table description": "A/P Correction Invoice",
+    "Primary Key": "DocEntry",
+    "Object Type": "163"
+  },
+  {
+    "Table": "OCPV",
+    "Table description": "A/P Correction Invoice Reversal",
+    "Primary Key": "DocEntry",
+    "Object Type": "164"
+  },
+  {
+    "Table": "OCSI",
+    "Table description": "A/R Correction Invoice",
+    "Primary Key": "DocEntry",
+    "Object Type": "165"
+  },
+  {
+    "Table": "OCSV",
+    "Table description": "A/R Correction Invoice Reversal",
+    "Primary Key": "DocEntry",
+    "Object Type": "166"
+  },
+  {
+    "Table": "OSCS",
+    "Table description": "Service Call Statuses",
+    "Primary Key": "statusID",
+    "Object Type": "167"
+  },
+  {
+    "Table": "OSCT",
+    "Table description": "Service Call Types",
+    "Primary Key": "callTypeID",
+    "Object Type": "168"
+  },
+  {
+    "Table": "OSCP",
+    "Table description": "Service Call Problem Types",
+    "Primary Key": "prblmTypID",
+    "Object Type": "169"
+  },
+  {
+    "Table": "OCTT",
+    "Table description": "Contract Template",
+    "Primary Key": "TmpltName",
+    "Object Type": "170"
+  },
+  {
+    "Table": "OHEM",
+    "Table description": "Employees",
+    "Primary Key": "empID",
+    "Object Type": "171"
+  },
+  {
+    "Table": "OHTY",
+    "Table description": "Employee Types",
+    "Primary Key": "typeID",
+    "Object Type": "172"
+  },
+  {
+    "Table": "OHST",
+    "Table description": "Employee Status",
+    "Primary Key": "statusID",
+    "Object Type": "173"
+  },
+  {
+    "Table": "OHTR",
+    "Table description": "Termination Reason",
+    "Primary Key": "reasonID",
+    "Object Type": "174"
+  },
+  {
+    "Table": "OHED",
+    "Table description": "Education Types",
+    "Primary Key": "edType",
+    "Object Type": "175"
+  },
+  {
+    "Table": "OINS",
+    "Table description": "Customer Equipment Card",
+    "Primary Key": "insID",
+    "Object Type": "176"
+  },
+  {
+    "Table": "OAGP",
+    "Table description": "Agent Name",
+    "Primary Key": "AgentCode",
+    "Object Type": "177"
+  },
+  {
+    "Table": "OWHT",
+    "Table description": "Withholding Tax",
+    "Primary Key": "WTCode",
+    "Object Type": "178"
+  },
+  {
+    "Table": "ORFL",
+    "Table description": "Already Displayed 347, 349 and WTax Reports",
+    "Primary Key": "DocEntry, ReportType, DocType, LineNum, TaxCode, OrdinalNum",
+    "Object Type": "179"
+  },
+  {
+    "Table": "OVTR",
+    "Table description": "Tax Report",
+    "Primary Key": "AbsEntry",
+    "Object Type": "180"
+  },
+  {
+    "Table": "OBOE",
+    "Table description": "Bill of Exchange for Payment",
+    "Primary Key": "BoeKey",
+    "Object Type": "181"
+  },
+  {
+    "Table": "OBOT",
+    "Table description": "Bill Of Exchang Transaction",
+    "Primary Key": "AbsEntry",
+    "Object Type": "182"
+  },
+  {
+    "Table": "OFRM",
+    "Table description": "File Format",
+    "Primary Key": "AbsEntry",
+    "Object Type": "183"
+  },
+  {
+    "Table": "OPID",
+    "Table description": "Period Indicator",
+    "Primary Key": "Indicator",
+    "Object Type": "184"
+  },
+  {
+    "Table": "ODOR",
+    "Table description": "Doubtful Debts",
+    "Primary Key": "AbsEntry",
+    "Object Type": "185"
+  },
+  {
+    "Table": "OHLD",
+    "Table description": "Holiday Table",
+    "Primary Key": "HldCode",
+    "Object Type": "186"
+  },
+  {
+    "Table": "OCRB",
+    "Table description": "BP – Bank Account",
+    "Primary Key": "Country, BankCode, Account, CardCode",
+    "Object Type": "187"
+  },
+  {
+    "Table": "OSST",
+    "Table description": "Service Call Solution Statuses",
+    "Primary Key": "Number",
+    "Object Type": "188"
+  },
+  {
+    "Table": "OSLT",
+    "Table description": "Service Call Solutions",
+    "Primary Key": "SltCode",
+    "Object Type": "189"
+  },
+  {
+    "Table": "OCTR",
+    "Table description": "Service Contracts",
+    "Primary Key": "ContractID",
+    "Object Type": "190"
+  },
+  {
+    "Table": "OSCL",
+    "Table description": "Service Calls",
+    "Primary Key": "callID",
+    "Object Type": "191"
+  },
+  {
+    "Table": "OSCO",
+    "Table description": "Service Call Origins",
+    "Primary Key": "originID",
+    "Object Type": "192"
+  },
+  {
+    "Table": "OUKD",
+    "Table description": "User Key Description",
+    "Primary Key": "TableName, KeyId",
+    "Object Type": "193"
+  },
+  {
+    "Table": "OQUE",
+    "Table description": "Queue",
+    "Primary Key": "queueID",
+    "Object Type": "194"
+  },
+  {
+    "Table": "OIWZ",
+    "Table description": "Inflation Wizard",
+    "Primary Key": "AbsEntry",
+    "Object Type": "195"
+  },
+  {
+    "Table": "ODUT",
+    "Table description": "Dunning Terms",
+    "Primary Key": "TermCode",
+    "Object Type": "196"
+  },
+  {
+    "Table": "ODWZ",
+    "Table description": "Dunning Wizard",
+    "Primary Key": "WizardId",
+    "Object Type": "197"
+  },
+  {
+    "Table": "OFCT",
+    "Table description": "Sales Forecast",
+    "Primary Key": "AbsID",
+    "Object Type": "198"
+  },
+  {
+    "Table": "OMSN",
+    "Table description": "MRP Scenarios",
+    "Primary Key": "AbsEntry",
+    "Object Type": "199"
+  },
+  {
+    "Table": "OTER",
+    "Table description": "Territories",
+    "Primary Key": "territryID",
+    "Object Type": "200"
+  },
+  {
+    "Table": "OOND",
+    "Table description": "Industries",
+    "Primary Key": "IndCode",
+    "Object Type": "201"
+  },
+  {
+    "Table": "OWOR",
+    "Table description": "Production Order",
+    "Primary Key": "DocEntry",
+    "Object Type": "202"
+  },
+  {
+    "Table": "ODPI",
+    "Table description": "A/R Down Payment",
+    "Primary Key": "DocEntry",
+    "Object Type": "203"
+  },
+  {
+    "Table": "ODPO",
+    "Table description": "A/P Down Payment",
+    "Primary Key": "DocEntry",
+    "Object Type": "204"
+  },
+  {
+    "Table": "OPKG",
+    "Table description": "Package Types",
+    "Primary Key": "PkgCode",
+    "Object Type": "205"
+  },
+  {
+    "Table": "OUDO",
+    "Table description": "User-Defined Object",
+    "Primary Key": "Code",
+    "Object Type": "206"
+  },
+  {
+    "Table": "ODOW",
+    "Table description": "Data Ownership – Objects",
+    "Primary Key": "Object, SubObject",
+    "Object Type": "207"
+  },
+  {
+    "Table": "ODOX",
+    "Table description": "Data Ownership – Exceptions",
+    "Primary Key": "QueryId, Object, SubObject",
+    "Object Type": "208"
+  },
+  {
+    "Table": "209"
+  },
+  {
+    "Table": "OHPS",
+    "Table description": "Employee Position",
+    "Primary Key": "posID",
+    "Object Type": "210"
+  },
+  {
+    "Table": "OHTM",
+    "Table description": "Employee Teams",
+    "Primary Key": "teamID",
+    "Object Type": "211"
+  },
+  {
+    "Table": "OORL",
+    "Table description": "Relationships",
+    "Primary Key": "OrlCode",
+    "Object Type": "212"
+  },
+  {
+    "Table": "ORCM",
+    "Table description": "Recommendation Data",
+    "Primary Key": "DocEntry",
+    "Object Type": "213"
+  },
+  {
+    "Table": "OUPT",
+    "Table description": "User Autorization Tree",
+    "Primary Key": "AbsId",
+    "Object Type": "214"
+  },
+  {
+    "Table": "OPDT",
+    "Table description": "Predefined Text",
+    "Primary Key": "AbsEntry",
+    "Object Type": "215"
+  },
+  {
+    "Table": "OBOX",
+    "Table description": "Box Definition",
+    "Primary Key": "BoxCode, ReportType, BosCode",
+    "Object Type": "216"
+  },
+  {
+    "Table": "OCLA",
+    "Table description": "Activity Status",
+    "Primary Key": "statusID",
+    "Object Type": "217"
+  },
+  {
+    "Table": "OCHF",
+    "Table description": "312",
+    "Primary Key": "ObjName",
+    "Object Type": "218"
+  },
+  {
+    "Table": "OCSHS",
+    "Table description": "User-Defined Values",
+    "Primary Key": "IndexID",
+    "Object Type": "219"
+  },
+  {
+    "Table": "OACP",
+    "Table description": "Periods Category",
+    "Primary Key": "AbsEntry",
+    "Object Type": "220"
+  },
+  {
+    "Table": "OATC",
+    "Table description": "Attachments",
+    "Primary Key": "AbsEntry",
+    "Object Type": "221"
+  },
+  {
+    "Table": "OGFL",
+    "Table description": "Grid Filter",
+    "Primary Key": "FormID, GridID, UserCode",
+    "Object Type": "222"
+  },
+  {
+    "Table": "OLNG",
+    "Table description": "User Language Table",
+    "Primary Key": "Code",
+    "Object Type": "223"
+  },
+  {
+    "Table": "OMLT",
+    "Table description": "Multi-Language Translation",
+    "Primary Key": "TranEntry",
+    "Object Type": "224"
+  },
+  {
+    "Table": "OAPA3",
+    "Table description": "",
+    "Primary Key": "",
+    "Object Type": "225"
+  },
+  {
+    "Table": "OAPA4",
+    "Table description": "",
+    "Primary Key": "",
+    "Object Type": "226"
+  },
+  {
+    "Table": "OAPA5",
+    "Table description": "",
+    "Primary Key": "",
+    "Object Type": "227"
+  },
+  {
+    "Table": "SDIS",
+    "Table description": "Dynamic Interface (Strings)",
+    "Primary Key": "FormId, ItemId, ColumnId, Language",
+    "Object Type": "229"
+  },
+  {
+    "Table": "OSVR",
+    "Table description": "Saved Reconciliations",
+    "Primary Key": "acctCode",
+    "Object Type": "230"
+  },
+  {
+    "Table": "DSC1",
+    "Table description": "House Bank Accounts",
+    "Primary Key": "AbsEntry",
+    "Object Type": "231"
+  },
+  {
+    "Table": "RDOC",
+    "Table description": "Document",
+    "Primary Key": "DocCode",
+    "Object Type": "232"
+  },
+  {
+    "Table": "ODGP",
+    "Table description": "Document Generation Parameter Sets",
+    "Primary Key": "AbsEntry",
+    "Object Type": "233"
+  },
+  {
+    "Table": "OMHD",
+    "Table description": "#740",
+    "Primary Key": "AlertCode",
+    "Object Type": "234"
+  },
+  {
+    "Table": "OACG",
+    "Table description": "Account Category",
+    "Primary Key": "AbsId",
+    "Object Type": "238"
+  },
+  {
+    "Table": "OBCA",
+    "Table description": "Bank Charges Allocation Codes",
+    "Primary Key": "Code",
+    "Object Type": "239"
+  },
+  {
+    "Table": "OCFT",
+    "Table description": "Cash Flow Transactions – Rows",
+    "Primary Key": "CFTId",
+    "Object Type": "241"
+  },
+  {
+    "Table": "OCFW",
+    "Table description": "Cash Flow Line Item",
+    "Primary Key": "CFWId",
+    "Object Type": "242"
+  },
+  {
+    "Table": "OBPL",
+    "Table description": "Business Place",
+    "Primary Key": "BPLId",
+    "Object Type": "247"
+  },
+  {
+    "Table": "OJPE",
+    "Table description": "Local Era Calendar",
+    "Primary Key": "Code",
+    "Object Type": "250"
+  },
+  {
+    "Table": "ODIM",
+    "Table description": "Cost Accounting Dimension",
+    "Primary Key": "DimCode",
+    "Object Type": "251"
+  },
+  {
+    "Table": "OSCD",
+    "Table description": "Service Code Table",
+    "Primary Key": "AbsEntry",
+    "Object Type": "254"
+  },
+  {
+    "Table": "OSGP",
+    "Table description": "Service Group for Brazil",
+    "Primary Key": "AbsEntry",
+    "Object Type": "255"
+  },
+  {
+    "Table": "OMGP",
+    "Table description": "Material Group",
+    "Primary Key": "AbsEntry",
+    "Object Type": "256"
+  },
+  {
+    "Table": "ONCM",
+    "Table description": "NCM Code",
+    "Primary Key": "AbsEntry",
+    "Object Type": "257"
+  },
+  {
+    "Table": "OCFP",
+    "Table description": "CFOP for Nota Fiscal",
+    "Primary Key": "ID",
+    "Object Type": "258"
+  },
+  {
+    "Table": "OTSC",
+    "Table description": "CST Code for Nota Fiscal",
+    "Primary Key": "ID",
+    "Object Type": "259"
+  },
+  {
+    "Table": "OUSG",
+    "Table description": "Usage of Nota Fiscal",
+    "Primary Key": "ID",
+    "Object Type": "260"
+  },
+  {
+    "Table": "OCDP",
+    "Table description": "Closing Date Procedure",
+    "Primary Key": "ClsDateNum",
+    "Object Type": "261"
+  },
+  {
+    "Table": "ONFN",
+    "Table description": "Nota Fiscal Numbering",
+    "Primary Key": "ObjectCode, DocSubType",
+    "Object Type": "263"
+  },
+  {
+    "Table": "ONFT",
+    "Table description": "Nota Fiscal Tax Category (Brazil)",
+    "Primary Key": "AbsId",
+    "Object Type": "264"
+  },
+  {
+    "Table": "OCNT",
+    "Table description": "Counties",
+    "Primary Key": "AbsId",
+    "Object Type": "265"
+  },
+  {
+    "Table": "OTCD",
+    "Table description": "Tax Code Determination",
+    "Primary Key": "AbsId",
+    "Object Type": "266"
+  },
+  {
+    "Table": "ODTY",
+    "Table description": "BoE Document Type",
+    "Primary Key": "AbsEntry",
+    "Object Type": "267"
+  },
+  {
+    "Table": "OPTF",
+    "Table description": "BoE Portfolio",
+    "Primary Key": "AbsEntry",
+    "Object Type": "268"
+  },
+  {
+    "Table": "OIST",
+    "Table description": "BoE Instruction",
+    "Primary Key": "AbsEntry",
+    "Object Type": "269"
+  },
+  {
+    "Table": "OTPS",
+    "Table description": "Tax Parameter",
+    "Primary Key": "AbsId",
+    "Object Type": "271"
+  },
+  {
+    "Table": "OTFC",
+    "Table description": "Tax Type Combination",
+    "Primary Key": "AbsId",
+    "Object Type": "275"
+  },
+  {
+    "Table": "OFML",
+    "Table description": "Tax Formula Master Table",
+    "Primary Key": "AbsId",
+    "Object Type": "276"
+  },
+  {
+    "Table": "OCNA",
+    "Table description": "CNAE Code",
+    "Primary Key": "AbsId",
+    "Object Type": "278"
+  },
+  {
+    "Table": "OTSI",
+    "Table description": "Sales Tax Invoice",
+    "Primary Key": "DocEntry",
+    "Object Type": "280"
+  },
+  {
+    "Table": "OTPI",
+    "Table description": "Purchase Tax Invoice",
+    "Primary Key": "DocEntry",
+    "Object Type": "281"
+  },
+  {
+    "Table": "OCCD",
+    "Table description": "Cargo Customs Declaration Numbers",
+    "Primary Key": "CCDNum",
+    "Object Type": "283"
+  },
+  {
+    "Table": "ORSC",
+    "Table description": "Resources",
+    "Primary Key": "ResCode",
+    "Object Type": "290"
+  },
+  {
+    "Table": "ORSG",
+    "Table description": "Resource Properties",
+    "Primary Key": "ResTypCod",
+    "Object Type": "291"
+  },
+  {
+    "Table": "ORSB",
+    "Table description": "ResGrpCod",
+    "Primary Key": "ResGrpCod",
+    "Object Type": "292"
+  },
+  {
+    "Table": "RecordSet",
+    "Table description": "",
+    "Primary Key": "300"
+  },
+  {
+    "Table": "Bridge",
+    "Table description": "",
+    "Primary Key": "305"
+  },
+  {
+    "Table": "OITR",
+    "Table description": "Internal Reconciliation",
+    "Primary Key": "ReconNum",
+    "Object Type": "321"
+  },
+  {
+    "Table": "OPOS",
+    "Table description": "POS Master Data",
+    "Primary Key": "EquipNo",
+    "Object Type": "541"
+  },
+  {
+    "Table": "ODRF",
+    "Table description": "Stock Transfer Draft",
+    "Primary Key": "DocEntry",
+    "Object Type": "1179"
+  },
+  {
+    "Table": "OMSG",
+    "Table description": "Messaging Service Settings",
+    "Primary Key": "USERID",
+    "Object Type": "10000105"
+  },
+  {
+    "Table": "OBTN",
+    "Table description": "Batch Numbers Master Data",
+    "Primary Key": "AbsEntry",
+    "Object Type": "10000044"
+  },
+  {
+    "Table": "OSRN",
+    "Table description": "Serial Numbers Master Data",
+    "Primary Key": "AbsEntry",
+    "Object Type": "10000045"
+  },
+  {
+    "Table": "OIVK",
+    "Table description": "IVL Vs OINM Keys",
+    "Primary Key": "TransSeq",
+    "Object Type": "10000062"
+  },
+  {
+    "Table": "OIQR",
+    "Table description": "Inventory Posting",
+    "Primary Key": "DocEntry",
+    "Object Type": "10000071"
+  },
+  {
+    "Table": "OFYM",
+    "Table description": "Financial Year Master",
+    "Primary Key": "AbsId",
+    "Object Type": "10000073"
+  },
+  {
+    "Table": "OSEC",
+    "Table description": "Sections",
+    "Primary Key": "AbsId",
+    "Object Type": "10000074"
+  },
+  {
+    "Table": "OCSN",
+    "Table description": "Certificate Series",
+    "Primary Key": "AbsId",
+    "Object Type": "10000075"
+  },
+  {
+    "Table": "ONOA",
+    "Table description": "Nature of Assessee",
+    "Primary Key": "AbsId",
+    "Object Type": "10000077"
+  },
+  {
+    "Table": "RTYP",
+    "Table description": "Document Type List",
+    "Primary Key": "CODE",
+    "Object Type": "10000196"
+  },
+  {
+    "Table": "OUGP",
+    "Table description": "UoM Group",
+    "Primary Key": "UgpEntry",
+    "Object Type": "10000197"
+  },
+  {
+    "Table": "OUOM",
+    "Table description": "UoM Master Data",
+    "Primary Key": "UomEntry",
+    "Object Type": "10000199"
+  },
+  {
+    "Table": "OBFC",
+    "Table description": "Bin Field Configuration",
+    "Primary Key": "AbsEntry",
+    "Object Type": "10000203"
+  },
+  {
+    "Table": "OBAT",
+    "Table description": "Bin Location Attribute",
+    "Primary Key": "AbsEntry",
+    "Object Type": "10000204"
+  },
+  {
+    "Table": "OBSL",
+    "Table description": "Warehouse Sublevel",
+    "Primary Key": "AbsEntry",
+    "Object Type": "10000205"
+  },
+  {
+    "Table": "OBIN",
+    "Table description": "Bin Location",
+    "Primary Key": "AbsEntry",
+    "Object Type": "10000206"
+  },
+  {
+    "Table": "ODNF",
+    "Table description": "DNF Code",
+    "Primary Key": "AbsEntry",
+    "Object Type": "140000041"
+  },
+  {
+    "Table": "OUGR",
+    "Table description": "Authorization Group",
+    "Primary Key": "GroupId",
+    "Object Type": "231000000"
+  },
+  {
+    "Table": "OEGP",
+    "Table description": "E-Mail Group",
+    "Primary Key": "EmlGrpCode",
+    "Object Type": "234000004"
+  },
+  {
+    "Table": "OGPC",
+    "Table description": "Government Payment Code",
+    "Primary Key": "AbsId",
+    "Object Type": "243000001"
+  },
+  {
+    "Table": "OIQI",
+    "Table description": "Inventory Opening Balance",
+    "Primary Key": "DocEntry",
+    "Object Type": "310000001"
+  },
+  {
+    "Table": "OBTW",
+    "Table description": "Batch Attributes in Location",
+    "Primary Key": "AbsEntry",
+    "Object Type": "310000008"
+  },
+  {
+    "Table": "OLLF",
+    "Table description": "Legal List Format",
+    "Primary Key": "AbsEntry",
+    "Object Type": "410000005"
+  },
+  {
+    "Table": "OHET",
+    "Table description": "Object: HR Employee Transfer",
+    "Primary Key": "TransferID",
+    "Object Type": "480000001"
+  },
+  {
+    "Table": "OTCX",
+    "Table description": "Tax Code Determination",
+    "Primary Key": "DocEntry",
+    "Object Type": "540000005"
+  },
+  {
+    "Table": "OPQT",
+    "Table description": "Purchase Quotation",
+    "Primary Key": "DocEntry",
+    "Object Type": "540000006"
+  },
+  {
+    "Table": "ORCP",
+    "Table description": "Recurring Transaction Template",
+    "Primary Key": "AbsEntry",
+    "Object Type": "540000040"
+  },
+  {
+    "Table": "OCCT",
+    "Table description": "Cost Center Type",
+    "Primary Key": "CctCode",
+    "Object Type": "540000042"
+  },
+  {
+    "Table": "OACR",
+    "Table description": "Accrual Type",
+    "Primary Key": "Code",
+    "Object Type": "540000048"
+  },
+  {
+    "Table": "ONFM",
+    "Table description": "Nota Fiscal Model",
+    "Primary Key": "AbsEntry",
+    "Object Type": "540000056"
+  },
+  {
+    "Table": "OBFI",
+    "Table description": "Brazil Fuel Indexer",
+    "Primary Key": "ID",
+    "Object Type": "540000067"
+  },
+  {
+    "Table": "OBBI",
+    "Table description": "Brazil Beverage Indexer",
+    "Primary Key": "ID",
+    "Object Type": "540000068"
+  },
+  {
+    "Table": "OCPT",
+    "Table description": "Cockpit Main Table",
+    "Primary Key": "AbsEntry",
+    "Object Type": "1210000000"
+  },
+  {
+    "Table": "OWTQ",
+    "Table description": "Inventory Transfer Request",
+    "Primary Key": "DocEntry",
+    "Object Type": "1250000001"
+  },
+  {
+    "Table": "OOAT",
+    "Table description": "Blanket Agreement",
+    "Primary Key": "AbsID",
+    "Object Type": "1250000025"
+  },
+  {
+    "Table": "OKPI",
+    "Table description": "Key Performance Indicator Package",
+    "Primary Key": "AbsEntry",
+    "Object Type": "1320000000"
+  },
+  {
+    "Table": "OTGG",
+    "Table description": "Target Group",
+    "Primary Key": "TargetCode",
+    "Object Type": "1320000002"
+  },
+  {
+    "Table": "OCPN",
+    "Table description": "Campaign",
+    "Primary Key": "CpnNo",
+    "Object Type": "1320000012"
+  },
+  {
+    "Table": "OROC",
+    "Table description": "Retorno Operation Codes",
+    "Primary Key": "AbsEntry",
+    "Object Type": "1320000028"
+  },
+  {
+    "Table": "OPSC",
+    "Table description": "Product Source Code",
+    "Primary Key": "Code",
+    "Object Type": "1320000039"
+  },
+  {
+    "Table": "ODTP",
+    "Table description": "Fixed Assets Depreciation Types",
+    "Primary Key": "Code",
+    "Object Type": "1470000000"
+  },
+  {
+    "Table": "OADT",
+    "Table description": "Fixed Assets Account Determination",
+    "Primary Key": "Code",
+    "Object Type": "1470000002"
+  },
+  {
+    "Table": "ODPA",
+    "Table description": "Fixed Asset Depreciation Areas",
+    "Primary Key": "Code",
+    "Object Type": "1470000003"
+  },
+  {
+    "Table": "ODPP",
+    "Table description": "Depreciation Type Pools",
+    "Primary Key": "Code",
+    "Object Type": "1470000004"
+  },
+  {
+    "Table": "OACS",
+    "Table description": "Asset Classes",
+    "Primary Key": "Code",
+    "Object Type": "1470000032"
+  },
+  {
+    "Table": "OAGS",
+    "Table description": "Asset Groups",
+    "Primary Key": "Code",
+    "Object Type": "1470000046"
+  },
+  {
+    "Table": "ODMC",
+    "Table description": "G/L Account Determination Criteria – Inventory",
+    "Primary Key": "DmcId",
+    "Object Type": "1470000048"
+  },
+  {
+    "Table": "OACQ",
+    "Table description": "Capitalization",
+    "Primary Key": "DocEntry",
+    "Object Type": "1470000049"
+  },
+  {
+    "Table": "OGAR",
+    "Table description": "G/L Account Advanced Rules",
+    "Primary Key": "AbsEntry",
+    "Object Type": "1470000057"
+  },
+  {
+    "Table": "OACD",
+    "Table description": "Credit Memo",
+    "Primary Key": "DocEntry",
+    "Object Type": "1470000060"
+  },
+  {
+    "Table": "OBCD",
+    "Table description": "Bar Code Master Data",
+    "Primary Key": "BcdEntry",
+    "Object Type": "1470000062"
+  },
+  {
+    "Table": "OINC",
+    "Table description": "Inventory Counting",
+    "Primary Key": "DocEntry",
+    "Object Type": "1470000065"
+  },
+  {
+    "Table": "OEDG",
+    "Table description": "Discount Groups",
+    "Primary Key": "AbsEntry",
+    "Object Type": "1470000077"
+  },
+  {
+    "Table": "OCCS",
+    "Table description": "Cycle Count Determination",
+    "Primary Key": "WhsCode",
+    "Object Type": "1470000092"
+  },
+  {
+    "Table": "OPRQ",
+    "Table description": "Purchase Request",
+    "Primary Key": "DocEntry",
+    "Object Type": "1470000113"
+  },
+  {
+    "Table": "OWLS",
+    "Table description": "Workflow – Task Details",
+    "Primary Key": "TaskID",
+    "Object Type": "1620000000"
+  }
+]
