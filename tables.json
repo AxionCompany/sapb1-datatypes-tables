@@ -1955,5 +1955,11 @@
     "Table description": "Return Request",
     "Primary Key": "DocEntry",
     "Object Type": "234000031"
+  },
+  {
+    "Table": "OPRR",
+    "Table description": "Goods Return Request",
+    "Primary Key": "DocEntry",
+    "Object Type": "234000032"
   }
 ]
