@@ -1949,5 +1949,17 @@
     "Table description": "Workflow – Task Details",
     "Primary Key": "TaskID",
     "Object Type": "1620000000"
+  },
+  {
+    "Table": "ORRR",
+    "Table description": "Return Request",
+    "Primary Key": "DocEntry",
+    "Object Type": "234000031"
+  },
+  {
+    "Table": "OPRR",
+    "Table description": "Goods Return Request",
+    "Primary Key": "DocEntry",
+    "Object Type": "234000032"
   }
 ]
